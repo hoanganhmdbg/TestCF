@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    font-size: 20px;
+}
+#question{
+    background-color: #E3DEC1;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5%;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 5vh;
+}
+.answer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ch{
+    width: 35vw;
+    height: 10vh;
+    margin-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #47AFAF;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+}

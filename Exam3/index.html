@@ -1,21 +1,35 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <style>
+        body{
+            margin: 0;
+        }
+    </style>
 </head>
+
 <body>
     <quiz-template></quiz-template>
 </body>
 <template id="quiz-template">
-    <div id="question">dasd</div>
-    <div class="answer">
-        <div id="wrong1">das</div>
-        <div id="wrong2">das</div>
-        <div id="wrong3">das</div>
-        <div id="right">dasda</div>
+    <link rel="stylesheet" href="./index.css">
+    <div class="container">
+        <div class="contain">
+            <div id="question">dasd</div>
+            <div class="answer">
+                <div id="wrong1" class="ch">das</div>
+                <div id="wrong2" class="ch">das</div>
+                <div id="wrong3" class="ch">das</div>
+                <div id="right" class="ch">dasda</div>
+            </div>
+        </div>
     </div>
+    
+
 </template>
 <script src="./index.js" type="module"></script>
+
 </html>
